@@ -48,7 +48,7 @@ h1{
 }
 @keyframes changeColor{
     from{background-color: #00ADB5;}
-    to{background-color: rgb(238, 238, 238);}
+    to{background-color: rgb(190, 189, 189);}
 }
 .title2{
 color: rgb(0, 173, 181);}
