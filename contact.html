@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+  
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,9 +10,52 @@
   <body>
     <!-- First comment of the day -->
     <header>
-      <h1></h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="menu.html">Products</a>
+          </li>
+          <li>
+            <a href="about.html">About Us</a>
+          </li>
+          <li>
+            <a class="active" href="#">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
     </header>
-    <div class="ctn"></div>
-    <footer></footer>
+    <h1>Contact Us</h1>
+    <div class="ctn">
+      <form action="">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" placeholder="John Doe" />
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="JohnDoe@gmail.com"
+        />
+        <label for="msg">Message: </label>
+        <textarea
+          name="msg"
+          id="msg"
+          cols="30"
+          rows="10"
+          placeholder="Enter your message here"
+        ></textarea>
+        <input type="submit" />
+      </form>
+    </div>
+    <footer>
+      <div class="foot">
+        <p>Address: 123 ABC Street</p>
+        <p>Email: Help@GalleryX.com</p>
+        <p>Phone: (800)756-1892</p>
+      </div>
+    </footer>
   </body>
 </html>

@@ -1,0 +1,30 @@
+h1{
+    font-size: 35px;
+    font-family:Times New Roman
+
+}
+p{
+    font-size: 28px;
+    font-family: Times New Roman;
+    margin-bottom: 120px;
+}
+h2{
+   font-size: 35px;
+   background-color: #00ADB5;
+}
+
+body{
+    text-align: center;
+    background-color: #393E46;
+    color: #EEEEEE;
+    border-radius: 65%;
+}
+
+div{
+    max-width: fit-content;
+    margin: 0 auto;
+}
+img{
+    border-radius: 40%;
+    border-top: 50px;
+}  
