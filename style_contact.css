@@ -52,9 +52,7 @@ li a {
 footer {
   margin-top: 30px;
   padding: 10px;
-  position: absolute;
   background-color: #00adb5;
-  bottom: 0;
   width: 100%;
 }
 ul {
