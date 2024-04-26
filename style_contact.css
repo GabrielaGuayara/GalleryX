@@ -71,3 +71,17 @@ ul {
 li a:hover:not(.active) {
   background-color: #222831;
 }
+nav{
+  animation-name: navAnim ;
+  animation-fill-mode: forwards;
+  animation-duration: 3s;
+}
+
+@keyframes navAnim{
+  from{
+    width: 0%;
+  }
+  to{
+    width: 100%
+  }
+}
